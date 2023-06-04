@@ -1,0 +1,37 @@
+.home {
+   color:white;
+}
+
+
+.songCard {
+   background-color: rgba(0, 70, 161, 0.116);
+}
+.songLibrary {
+   color:white; 
+}
+
+.songList {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.friends {
+   color:white; 
+}
+
+.friendsList {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.friendDelete {
+   display: flex; 
+   justify-content: left;
+}
+
+.playlistData {
+   color:white; 
+}

@@ -1,0 +1,105 @@
+{
+  "songs": [
+    {
+      "songName": "Apartment",
+      "artist": "Young the Giant",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg",
+      "id": "1"
+    },
+    {
+      "songName": "Not Done With You Yet",
+      "artist": "The Classic Crime",
+      "img": "https://images.squarespace-cdn.com/content/v1/583f7dd8d482e9d838add700/1495307552587-9IARVYY7Z62WU10Y12FR/TCC-How-To-Be-Human-Cover-3000x3000.jpg?format=1000w",
+      "id": "2"
+    },
+    {
+      "songName": "Dead!",
+      "artist": "My Chemical Romance",
+      "img": "https://images.genius.com/a41483a521b44b6528ca922fc561be19.1000x1000x1.jpg",
+      "id": "3"
+    },
+    {
+      "songName": "On Love, On Life",
+      "artist": "Bayside",
+      "img": "https://images.rapgenius.com/b923ac50da19ef662a55e0eb20db0647.1000x1000x1.jpg",
+      "id": "4"
+    },
+    {
+      "songName": "This is the House That Doubt Built",
+      "artist": "A Day To Remember",
+      "img": "https://i0.wp.com/stitchedsound.com/wp-content/uploads/2011/07/what.jpg?fit=500%2C500&ssl=1",
+      "id": "5"
+    },
+    {
+      "songName": "If",
+      "artist": "House of Heroes",
+      "img": "https://images.genius.com/e3f152d6ae60090590c8bf8684276ac9.500x500x1.jpg",
+      "id": "6"
+    },
+    {
+      "songName": "This is Gospel",
+      "artist": "Panic! At The Disco",
+      "img": "https://cdns-images.dzcdn.net/images/cover/77debfbf2a94e8f5a59ddb3cb0853f6b/264x264.jpg",
+      "id": "7"
+    },
+    {
+      "songName": "Save Me",
+      "artist": "Avenged Sevenfold",
+      "img": "https://i1.sndcdn.com/artworks-bUQZA96nhc6m-0-t500x500.jpg",
+      "id": "8"
+    },
+    {
+      "songName": "Heaven Wasn't Built To Hold Me",
+      "artist": "Four Year Strong",
+      "img": "https://cdns-images.dzcdn.net/images/cover/d3f36702c5f974179a24ac75087d6c83/264x264.jpg",
+      "id": "9"
+    },
+    {
+      "songName": "King For A Day",
+      "artist": "Pierce The Veil",
+      "img": "https://i.scdn.co/image/ab67616d0000b273077cac00c2d9075e6f742570",
+      "id": "10"
+    },
+    {
+      "songName": "Ignorance",
+      "artist": "Paramore",
+      "img": "https://m.media-amazon.com/images/I/81m0BptHZ4L._UF1000,1000_QL80_.jpg",
+      "id": "11"
+    },
+    {
+      "songName": "Heavydirtysoul",
+      "artist": "Twenty One Pilots",
+      "img": "https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png",
+      "id": "12"
+    },
+    {
+      "songName": "Sidewinder",
+      "artist": "Avenged Sevenfold",
+      "img": "https://e.snmc.io/i/600/s/39a2a568565395e76ef7a7515ccc2a7b/8950626/avenged-sevenfold-city-of-evil-cover-art.jpg",
+      "id": "oxY8h2m"
+    }
+  ],
+  "favoriteSongs": [
+    [
+      "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg"
+    ]
+  ],
+  "playlist1": [
+    [
+      {
+        "songName": "Apartment",
+        "artist": "Young the Giant",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg",
+        "id": "1"
+      }
+    ],
+    [
+      {
+        "songName": "Not Done With You Yet",
+        "artist": "The Classic Crime",
+        "img": "https://images.squarespace-cdn.com/content/v1/583f7dd8d482e9d838add700/1495307552587-9IARVYY7Z62WU10Y12FR/TCC-How-To-Be-Human-Cover-3000x3000.jpg?format=1000w",
+        "id": "2"
+      }
+    ]
+  ]
+}
