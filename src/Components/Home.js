@@ -8,7 +8,7 @@ console.log(favSongs);
  const createCarouselItem = favSongs.map((song, i) => {
     return (
         <Carousel.Item key={i}>
-            <img className ="d-block w-25 mx-auto" src= {song}/>
+            <img className ="d-block w-50 mx-auto" src= {song.img}/>
         </Carousel.Item>
     )
  })
@@ -17,11 +17,9 @@ console.log(favSongs);
 
   return (
     <div className="home">
-        <h2>Home</h2>
-        <h4>Your Favorite Artists: </h4><br/><br/>
+        <h2><u>Current Listening</u> </h2><br/><br/>
         <Carousel>  
             {createCarouselItem}  
-
     </Carousel>
     
         

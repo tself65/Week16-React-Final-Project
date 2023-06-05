@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsDown, faThumbsUp }  from '@fortawesome/free-solid-svg-icons'; 
+import { useState } from 'react';
 
 //Component to like and dislike songs
 
@@ -8,23 +9,28 @@ import { faThumbsDown, faThumbsUp }  from '@fortawesome/free-solid-svg-icons';
 
 
 function LikeDislike({song}) {
-
+  
+  const url = `http://localhost:3600/favoriteSongs`
+  let id = song.id
  
-    let favSongs = []; 
+  const [favSong, setFavSong] = useState(song); 
 
-    const handleLike = () => {
-       favSongs.push(song.img);
-      
-       let postSong = {
-        method: "POST", 
-        headers: {"Content-Type":"application/json"}, 
-        body: JSON.stringify(favSongs), 
-       }
-       fetch(`http://localhost:3500/favoriteSongs`, postSong) 
+  const handleLike = () => {
+  setFavSong(song); 
+  
+  let postFavSong = {
+            method: "POST", 
+            headers: {"Content-Type":"application/json"}, 
+            body: JSON.stringify(favSong), 
+           }
+           fetch(`${url}`, postFavSong)
     }
 
-    const handleDislike = () => {
-        console.log("I hate this song!"); 
+  const handleDislike = () => {
+        fetch(`${url}/${id}`, {
+          method: "DELETE"
+      }) 
+      fetch(url);
 
     }
 

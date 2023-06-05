@@ -17,14 +17,14 @@ const handleChange = (e) => {
     setNewSong(prev => ({...prev,[n]:v}))
 }
 
-const handleSubmit = (e) => {
-    e.preventDefault(); 
+const handleSubmit = () => {  
     let postSong = {
         method: "POST", 
         headers: {"Content-Type":"application/json"}, 
         body: JSON.stringify(newSong),
     }
-    fetch(`http://localhost:3500/songs`, postSong)
+    fetch(`http://localhost:3600/songs`, postSong);
+    handleClose();
 }
 
 return (

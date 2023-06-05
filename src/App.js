@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Button, ButtonGroup, Container } from 'react-bootstrap'; 
-import {BrowserRouter as Router, Switch, Route, Link, useRouteMatch} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Friends from './Components/Friends';
 import PlaylistData from './Components/PlaylistData';
 import SongLibrary from './Components/SongLibrary';
@@ -24,9 +24,9 @@ import AddFriend from './Components/AddFriend';
 export default function App() {
 
   let url = `https://64797baca455e257fa633c34.mockapi.io/api/friends`
-  let url2 = `http://localhost:3500/songs`
-  let url3 = `http://localhost:3500/favoriteSongs`
-  let url4 = `http://localhost:3500/playlist1`
+  let url2 = `http://localhost:3600/songs`
+  let url3 = `http://localhost:3600/favoriteSongs`
+  let url4 = `http://localhost:3600/playlist1`
     let [friends, setFriends] = useState([]);
 
     useEffect(() => {
@@ -90,16 +90,16 @@ export default function App() {
       <Router>
         <div>
           <ButtonGroup>
-            <Button variant="outline-dark" size="lg">
+            <Button variant="outline-light" size="lg">
             <Link to="/">Home</Link>
             </Button>
-            <Button variant="outline-dark" size="lg">
+            <Button variant="outline-light" size="lg">
             <Link to="/songLibrary" >Library</Link>
             </Button>
-            <Button variant="outline-dark" size="lg">
+            <Button variant="outline-light" size="lg">
             <Link to="/friends">Friends</Link>
             </Button>
-            <Button variant="outline-dark" size="lg">
+            <Button variant="outline-light" size="lg">
             <Link to="/playlists">Playlists</Link>
             </Button>
           </ButtonGroup>

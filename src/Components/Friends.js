@@ -10,15 +10,17 @@ function Friends({friendsList}) {
     const showFriends = friendsList.map((friend) => {
 
     return (
-      <Card key={friend.id} style={{ width: '18rem' }}>
-      <Card.Header className="friendHeader">{friend.name}</Card.Header>
-     
-      <Card.Body className="friendCard">
+      <div>
+    <Card className="friendCard" bg='dark' text='light' key={friend.id} style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Img src={`${friend.avatar}`} style={{ borderRadius: '50%' }}/><br/><br/>
+          <Card.Title>{friend.name}</Card.Title>
           <Card.Text>Favorite Genre: {friend.music}</Card.Text>
-          <Card.Img src={`${friend.avatar}`}/><br/><br/>
           <Delete friend={friend} className="friendDelete"/>
-      </Card.Body>
-  </Card>
+        </Card.Body>
+    </Card><br/>
+      </div>
+    
     )
   });
 
@@ -26,7 +28,7 @@ function Friends({friendsList}) {
     
   return (
     <div className="friends">
-         <h2>Friends List</h2>
+         <h2><u>Friends List</u></h2>
          <AddFriend/>
          <div className="friendsList">
             {showFriends}

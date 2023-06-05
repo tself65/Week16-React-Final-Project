@@ -77,29 +77,64 @@
       "artist": "Avenged Sevenfold",
       "img": "https://e.snmc.io/i/600/s/39a2a568565395e76ef7a7515ccc2a7b/8950626/avenged-sevenfold-city-of-evil-cover-art.jpg",
       "id": "oxY8h2m"
+    },
+    {
+      "songName": "Technoire",
+      "artist": "Gunship",
+      "img": "https://f4.bcbits.com/img/a2096360771_65",
+      "id": "fcWyr1J"
+    },
+    {
+      "songName": "Perfect",
+      "artist": "Ed Sheeran",
+      "img": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+      "id": "z0WYm0y"
+    },
+    {
+      "songName": "Back in Black ",
+      "artist": "AC/DC",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ACDC_Back_in_Black_cover.svg/1200px-ACDC_Back_in_Black_cover.svg.png",
+      "id": "lYVsQ3l"
     }
   ],
   "favoriteSongs": [
-    [
-      "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg"
-    ]
+    {
+      "songName": "Not Done With You Yet",
+      "artist": "The Classic Crime",
+      "img": "https://images.squarespace-cdn.com/content/v1/583f7dd8d482e9d838add700/1495307552587-9IARVYY7Z62WU10Y12FR/TCC-How-To-Be-Human-Cover-3000x3000.jpg?format=1000w",
+      "id": "2"
+    },
+    {
+      "songName": "If",
+      "artist": "House of Heroes",
+      "img": "https://images.genius.com/e3f152d6ae60090590c8bf8684276ac9.500x500x1.jpg",
+      "id": "6"
+    },
+    {
+      "songName": "Technoire",
+      "artist": "Gunship",
+      "img": "https://f4.bcbits.com/img/a2096360771_65",
+      "id": "fcWyr1J"
+    }
   ],
   "playlist1": [
-    [
-      {
-        "songName": "Apartment",
-        "artist": "Young the Giant",
-        "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg",
-        "id": "1"
-      }
-    ],
-    [
-      {
-        "songName": "Not Done With You Yet",
-        "artist": "The Classic Crime",
-        "img": "https://images.squarespace-cdn.com/content/v1/583f7dd8d482e9d838add700/1495307552587-9IARVYY7Z62WU10Y12FR/TCC-How-To-Be-Human-Cover-3000x3000.jpg?format=1000w",
-        "id": "2"
-      }
-    ]
+    {
+      "songName": "Apartment",
+      "artist": "Young the Giant",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Young_the_Giant_-_Young_the_Giant.jpg",
+      "id": "1"
+    },
+    {
+      "songName": "Not Done With You Yet",
+      "artist": "The Classic Crime",
+      "img": "https://images.squarespace-cdn.com/content/v1/583f7dd8d482e9d838add700/1495307552587-9IARVYY7Z62WU10Y12FR/TCC-How-To-Be-Human-Cover-3000x3000.jpg?format=1000w",
+      "id": "2"
+    },
+    {
+      "songName": "If",
+      "artist": "House of Heroes",
+      "img": "https://images.genius.com/e3f152d6ae60090590c8bf8684276ac9.500x500x1.jpg",
+      "id": "6"
+    }
   ]
 }

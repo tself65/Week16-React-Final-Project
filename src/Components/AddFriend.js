@@ -15,15 +15,14 @@ function AddFriend() {
         setNewFriend(prev => ({...prev,[n]:v}))
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault(); 
-        console.log(newFriend); 
+    const handleSubmit = () => {
         let postFriend = {
             method: "POST", 
             headers: {"Content-Type":"application/json"}, 
             body: JSON.stringify(newFriend), 
         }
-        fetch('https://64797baca455e257fa633c34.mockapi.io/api/friends', postFriend)
+        fetch('https://64797baca455e257fa633c34.mockapi.io/api/friends', postFriend); 
+        handleClose(); 
 
     }
     

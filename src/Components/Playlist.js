@@ -1,23 +1,26 @@
 import React from 'react'
 import { Dropdown } from 'react-bootstrap'
+import { useState } from 'react'
 
 
 //Way for users to create a playlist
 //Component that houses user and friends playlists
 function Playlist({song}) {
 
-let playlist1 = []; 
+
+const [playlist1, setPlaylist1] = useState(song); 
 
 const handleAdd = () => {
-    playlist1.push(song); 
+setPlaylist1(song); 
 
-    let postPlaylist = {
-        method: "POST", 
-        headers: {"Content-Type":"application/json"}, 
-        body: JSON.stringify(playlist1), 
-       }
-       fetch(`http://localhost:3500/playlist1`, postPlaylist)
-}
+let postPlaylist = {
+          method: "POST", 
+          headers: {"Content-Type":"application/json"}, 
+          body: JSON.stringify(playlist1), 
+         }
+         fetch(`http://localhost:3600/playlist1`, postPlaylist)
+  }
+
  
 
   return (
