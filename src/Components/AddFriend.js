@@ -15,7 +15,8 @@ function AddFriend() {
         setNewFriend(prev => ({...prev,[n]:v}))
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+      e.preventDefault(); 
         let postFriend = {
             method: "POST", 
             headers: {"Content-Type":"application/json"}, 
